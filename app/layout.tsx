@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { SimpleChatbot } from "@/components/ai/simple-chatbot";
 import { JsonLd, organizationSchema } from "@/components/seo/json-ld";
+import SiteHeader from "@/components/layout/site-header";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -13,18 +14,20 @@ const montserrat = Montserrat({
 });
 
 const lora = Lora({
-  variable: "--font-lora", 
+  variable: "--font-lora",
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "St Mary's House Dental Care - Going the Extra Smile | Luxury Dental Shoreham-by-Sea",
-  description: "Premium dental care at St Mary's House, Shoreham-by-Sea. Luxury treatments including AI-Powered 3D Dentistry, Same-Day Veneers, Digital Twin Smile Simulation & advanced implant restorations. Going the Extra Smile.",
+  title:
+    "St Mary's House Dental Care - Going the Extra Smile | Luxury Dental Shoreham-by-Sea",
+  description:
+    "Premium dental care at St Mary's House, Shoreham-by-Sea. Luxury treatments including AI-Powered 3D Dentistry, Same-Day Veneers, Digital Twin Smile Simulation & advanced implant restorations. Going the Extra Smile.",
   keywords: [
     "luxury dental clinic Shoreham-by-Sea",
-    "coastal dental care West Sussex", 
+    "coastal dental care West Sussex",
     "premium dentist",
     "3D printed veneers",
     "same-day veneers",
@@ -33,41 +36,39 @@ export const metadata: Metadata = {
     "digital twin smile simulation",
     "teeth whitening",
     "emergency dentist",
-    "dental anxiety treatment"
+    "dental anxiety treatment",
   ],
   authors: [{ name: "St Mary's House Dental Care" }],
   creator: "St Mary's House Dental Care",
   publisher: "St Mary's House Dental Care",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://smhdental.co.uk'),
-  alternates: {
-    canonical: '/',
-  },
+  formatDetection: { email: false, address: false, telephone: false },
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://smhdental.co.uk"
+  ),
+  alternates: { canonical: "/" },
   openGraph: {
     title: "St Mary's House Dental Care - Going the Extra Smile",
-    description: "Experience luxury dental care by the sea in Shoreham-by-Sea, West Sussex. Advanced AI-powered 3D dentistry treatments with a personal touch.",
-    url: '/',
+    description:
+      "Experience luxury dental care by the sea in Shoreham-by-Sea, West Sussex. Advanced AI-powered 3D dentistry treatments with a personal touch.",
+    url: "/",
     siteName: "St Mary's House Dental Care",
     images: [
       {
-        url: '/logos/horizontal-title-turquoise-1024.png',
+        url: "/logos/horizontal-title-turquoise-1024.png",
         width: 1024,
         height: 512,
         alt: "St Mary's House Dental Care Logo",
       },
     ],
-    locale: 'en_GB',
-    type: 'website',
+    locale: "en_GB",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: "St Mary's House Dental Care - Going the Extra Smile",
-    description: "Experience luxury dental care by the sea in Shoreham-by-Sea, West Sussex. Advanced AI-powered 3D dentistry treatments with a personal touch.",
-    images: ['/logos/horizontal-title-turquoise-1024.png'],
+    description:
+      "Experience luxury dental care by the sea in Shoreham-by-Sea, West Sussex. Advanced AI-powered 3D dentistry treatments with a personal touch.",
+    images: ["/logos/horizontal-title-turquoise-1024.png"],
   },
   robots: {
     index: true,
@@ -75,21 +76,17 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
-  verification: {
-    google: process.env.GOOGLE_VERIFICATION_ID,
-  },
+  verification: { google: process.env.GOOGLE_VERIFICATION_ID },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="scroll-smooth">
       <head>
@@ -102,14 +99,19 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <link rel="preload" as="image" href="/videos/hero/hero-poster.jpg" />
       </head>
-      <body className={`${montserrat.variable} ${lora.variable} antialiased min-h-screen bg-background text-foreground`}>
+      <body
+        className={`${montserrat.variable} ${lora.variable} antialiased min-h-screen bg-background text-foreground`}
+      >
         <JsonLd data={organizationSchema} />
         <ThemeProvider>
+          {/* NEW: site header with mega menu */}
+          <SiteHeader />
+          {/* your pages */}
           {children}
+          {/* chatbot stays exactly where you had it */}
           <SimpleChatbot />
         </ThemeProvider>
       </body>
     </html>
   );
 }
-
