@@ -1,0 +1,1 @@
+export const metadata={title:"3D PRINTED VENEERS"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>3D PRINTED VENEERS</h1><p>Placeholder for /treatments/3d-printed-veneers.</p></main>)}

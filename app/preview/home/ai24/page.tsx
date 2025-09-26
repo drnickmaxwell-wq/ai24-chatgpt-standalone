@@ -1,0 +1,1 @@
+export const metadata={title:"AI24 Home Preview"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>AI24 Home Preview</h1><p>Working homepage preview.</p></main>)}

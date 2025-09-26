@@ -1,0 +1,1 @@
+export const metadata={title:"SERVICE"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>SERVICE</h1><p>Placeholder for /locations/[town]/[service].</p></main>)}

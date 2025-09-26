@@ -1,0 +1,1 @@
+export async function GET(){return new Response('<rss version="2.0"><channel><title>SMH Dental</title></channel></rss>',{headers:{'Content-Type':'application/rss+xml'}})}

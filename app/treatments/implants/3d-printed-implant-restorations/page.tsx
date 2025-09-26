@@ -1,0 +1,1 @@
+export const metadata={title:"3D PRINTED IMPLANT RESTORATIONS"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>3D PRINTED IMPLANT RESTORATIONS</h1><p>Placeholder for /treatments/implants/3d-printed-implant-restorations.</p></main>)}

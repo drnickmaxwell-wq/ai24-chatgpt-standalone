@@ -1,0 +1,1 @@
+export const metadata={title:"NEWSLETTER"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>NEWSLETTER</h1><p>Placeholder for /newsletter.</p></main>)}

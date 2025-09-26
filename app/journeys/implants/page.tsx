@@ -1,0 +1,1 @@
+export const metadata={title:"IMPLANTS"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>IMPLANTS</h1><p>Placeholder for /journeys/implants.</p></main>)}

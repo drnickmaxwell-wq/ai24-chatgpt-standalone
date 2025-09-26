@@ -1,0 +1,1 @@
+export const metadata={title:"PATIENT STORIES"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>PATIENT STORIES</h1><p>Placeholder for /patient-stories.</p></main>)}

@@ -1,0 +1,1 @@
+export const metadata={title:"EXAMINATIONS"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>EXAMINATIONS</h1><p>Placeholder for /treatments/general-dentistry/examinations.</p></main>)}

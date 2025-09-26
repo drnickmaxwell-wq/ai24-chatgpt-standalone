@@ -1,0 +1,1 @@
+export const metadata={title:"TEETH WHITENING"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>TEETH WHITENING</h1><p>Placeholder for /treatments/teeth-whitening.</p></main>)}

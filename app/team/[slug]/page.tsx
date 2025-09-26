@@ -1,0 +1,1 @@
+export const metadata={title:"SLUG"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>SLUG</h1><p>Placeholder for /team/[slug].</p></main>)}

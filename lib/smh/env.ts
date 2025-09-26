@@ -1,0 +1,1 @@
+export const smhEnv={SITE_NAME:process.env.NEXT_PUBLIC_SITE_NAME||"St Mary's House Dental Care",SITE_URL:process.env.NEXT_PUBLIC_SITE_URL||"",CHAT_API_BASE:process.env.NEXT_PUBLIC_CHAT_API_BASE||""} as const;

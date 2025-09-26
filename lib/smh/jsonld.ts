@@ -1,0 +1,1 @@
+export type QA={q:string;a:string}; export const faqPage=(faq:QA[])=>({"@context":"https://schema.org","@type":"FAQPage",mainEntity:faq.map(({q,a})=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))});

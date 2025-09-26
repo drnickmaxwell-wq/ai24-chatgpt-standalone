@@ -1,0 +1,1 @@
+export const metadata={title:"PRIVACY"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>PRIVACY</h1><p>Placeholder for /privacy.</p></main>)}

@@ -1,0 +1,1 @@
+export const metadata={title:"ROOT CANAL TREATMENT"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>ROOT CANAL TREATMENT</h1><p>Placeholder for /treatments/general-dentistry/root-canal-treatment.</p></main>)}

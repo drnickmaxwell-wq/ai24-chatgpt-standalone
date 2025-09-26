@@ -1,0 +1,1 @@
+export const metadata={title:"Luxury Home Preview"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Luxury Home Preview</h1><p>Targeting screenshots.zip aesthetics.</p></main>)}

@@ -1,0 +1,1 @@
+export const metadata={title:"Light Theme Preview"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Light Theme Preview</h1><p>Theme parity check.</p></main>)}

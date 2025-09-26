@@ -1,0 +1,1 @@
+export const metadata={title:"SAME DAY IMPLANTS"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>SAME DAY IMPLANTS</h1><p>Placeholder for /treatments/implants/same-day-implants.</p></main>)}

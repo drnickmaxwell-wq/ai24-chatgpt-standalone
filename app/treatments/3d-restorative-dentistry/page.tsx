@@ -1,0 +1,1 @@
+export const metadata={title:"3D RESTORATIVE DENTISTRY"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>3D RESTORATIVE DENTISTRY</h1><p>Placeholder for /treatments/3d-restorative-dentistry.</p></main>)}

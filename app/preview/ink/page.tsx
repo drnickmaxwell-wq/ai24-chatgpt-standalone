@@ -1,0 +1,1 @@
+export const metadata={title:"Ink Theme Preview"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Ink Theme Preview</h1><p>Theme parity check.</p></main>)}

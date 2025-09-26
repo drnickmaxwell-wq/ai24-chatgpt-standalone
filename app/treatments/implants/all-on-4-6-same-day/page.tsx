@@ -1,0 +1,1 @@
+export const metadata={title:"ALL ON 4 6 SAME DAY"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>ALL ON 4 6 SAME DAY</h1><p>Placeholder for /treatments/implants/all-on-4-6-same-day.</p></main>)}

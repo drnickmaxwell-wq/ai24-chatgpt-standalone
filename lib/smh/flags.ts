@@ -1,0 +1,1 @@
+export const smhFlags={CHATDOCK:process.env.NEXT_PUBLIC_FEATURE_CHATDOCK==='true',LUX_HOMEPAGE:process.env.NEXT_PUBLIC_FEATURE_LUX_HOMEPAGE==='true'} as const;

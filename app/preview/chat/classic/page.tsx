@@ -1,0 +1,1 @@
+export const metadata={title:"Chat UI — Classic Preview"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Chat UI — Classic Preview</h1><p>Same API brain; classic visuals.</p></main>)}
