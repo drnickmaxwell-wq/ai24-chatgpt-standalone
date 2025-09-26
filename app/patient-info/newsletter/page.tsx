@@ -1,0 +1,1 @@
+export const metadata={title:"Newsletter"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Newsletter</h1><p>Monthly digest archive.</p></main>)}

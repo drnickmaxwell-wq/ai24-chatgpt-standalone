@@ -1,0 +1,1 @@
+export const metadata={title:"Tooth-Coloured Fillings"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Tooth-Coloured Fillings</h1><p>Placeholder for /treatments/general/tooth-coloured-fillings.</p></main>)}

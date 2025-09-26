@@ -1,0 +1,1 @@
+export const metadata={title:"Blog Article"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Blog Article</h1><p>Replace with MDX reader later.</p></main>)}

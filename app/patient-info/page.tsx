@@ -1,0 +1,1 @@
+export const metadata={title:"Patient Info"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Patient Info</h1><p>Helpful resources: blog, newsletter, leaflets, and patient stories.</p></main>)}

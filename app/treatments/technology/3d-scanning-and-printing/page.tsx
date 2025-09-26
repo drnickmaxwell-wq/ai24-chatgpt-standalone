@@ -1,0 +1,1 @@
+export const metadata={title:"3D Scanning and Printing"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>3D Scanning and Printing</h1><p>Placeholder for /treatments/technology/3d-scanning-and-printing.</p></main>)}

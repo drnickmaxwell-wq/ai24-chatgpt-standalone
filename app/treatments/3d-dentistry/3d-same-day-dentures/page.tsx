@@ -1,0 +1,1 @@
+export const metadata={title:"3D Same-Day Dentures"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>3D Same-Day Dentures</h1><p>Placeholder for /treatments/3d-dentistry/3d-same-day-dentures.</p></main>)}

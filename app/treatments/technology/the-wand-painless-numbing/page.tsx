@@ -1,0 +1,1 @@
+export const metadata={title:"The Wand — Painless Numbing"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>The Wand — Painless Numbing</h1><p>Placeholder for /treatments/technology/the-wand-painless-numbing.</p></main>)}

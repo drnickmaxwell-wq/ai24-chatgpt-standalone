@@ -1,0 +1,1 @@
+export const metadata={title:"Soft Tissue Laser"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Soft Tissue Laser</h1><p>Placeholder for /treatments/technology/soft-tissue-laser.</p></main>)}

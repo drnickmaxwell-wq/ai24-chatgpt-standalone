@@ -1,27 +1,17 @@
-/** @type {import("next").NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  experimental: {
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
-      },
-    },
-  },
+  // Good defaults
+  reactStrictMode: true,
+  experimental: { appDir: true },
+
+  // You’re on static export somewhere. This disables the server Image API so the 500 disappears.
   images: {
-    domains: ['localhost'],
-    formats: ['image/webp', 'image/avif'],
+    unoptimized: true,
   },
+
+  // If you see `output: 'export'` anywhere, it belongs here. If you are exporting statically, keep this line.
+  // If you're NOT exporting statically, remove this next line completely.
+  // output: 'export',
 };
 
 module.exports = nextConfig;
-

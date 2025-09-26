@@ -1,0 +1,1 @@
+export const metadata={title:"General Dentistry"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>General Dentistry</h1><p>Placeholder for /treatments/general.</p></main>)}

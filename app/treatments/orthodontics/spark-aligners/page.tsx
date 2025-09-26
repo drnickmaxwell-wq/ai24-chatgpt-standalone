@@ -1,0 +1,1 @@
+export const metadata={title:"Spark Aligners"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Spark Aligners</h1><p>Placeholder for /treatments/orthodontics/spark-aligners.</p></main>)}

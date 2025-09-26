@@ -1,0 +1,1 @@
+export const metadata={title:"Fixed Braces"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Fixed Braces</h1><p>Placeholder for /treatments/orthodontics/fixed-braces.</p></main>)}

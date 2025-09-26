@@ -1,0 +1,1 @@
+export const metadata={title:"Patient Leaflets"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Patient Leaflets</h1><p>Post-op instructions, sedation info, hygiene guides.</p></main>)}

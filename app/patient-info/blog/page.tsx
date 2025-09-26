@@ -1,0 +1,1 @@
+export const metadata={title:"Blog"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Blog</h1><p>Articles in UK English. SEO-friendly, non-diagnostic.</p></main>)}

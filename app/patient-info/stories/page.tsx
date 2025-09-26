@@ -1,0 +1,1 @@
+export const metadata={title:"Patient Stories"};export default function Page(){return(<main style={{padding:'2rem',maxWidth:1000,margin:'0 auto'}}><h1>Patient Stories</h1><p>Videos and testimonials (Review/VideoObject schema).</p></main>)}
